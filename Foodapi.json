@@ -1,1 +1,79 @@
-
+{
+      "ID":1,
+      "FullName":"Americano",
+      
+      "description":"Italian espresso gets the American treatment; hot water fills the cup for a rich alternative to drip coffee.\nMade from water and espresso.",
+      "price":120,
+      "image":"https://images.justjava.store/products/coffee/americano.jpg",
+      "type":"coffee",
+      "status":"enabled",
+      "createdAt":"1574605132",
+      "choices":[
+         {
+            "ID":1,
+            "name":"Single, double or triple",
+            "position":0,
+            "qtyMin":1,
+            "qtyMax":1,
+            "options":[
+               {
+                  "id":1,
+                  "name":"Triple",
+                  "description":"Three shots of coffee",
+                  "price":80
+               },
+               {
+                  "id":2,
+                  "name":"Double",
+                  "description":"Two shots of coffee",
+                  "price":40
+               },
+               {
+                  "id":3,
+                  "name":"Single",
+                  "description":"A single shot of coffee",
+                  "price":0
+               }
+            ]
+         },
+         {
+            "id":2,
+            "name":"Toppings",
+            "position":0,
+            "qtyMin":0,
+            "qtyMax":-1,
+            "options":[
+               {
+                  "id":4,
+                  "name":"Mini marshmallows",
+                  "description":null,
+                  "price":60
+               },
+               {
+                  "id":5,
+                  "name":"Mint",
+                  "description":null,
+                  "price":30
+               },
+               {
+                  "id":6,
+                  "name":"Nutmeg (powdered)",
+                  "description":null,
+                  "price":30
+               },
+               {
+                  "id":7,
+                  "name":"Chocolate (curls)",
+                  "description":null,
+                  "price":30
+               },
+               {
+                  "id":8,
+                  "name":"Cinnamon (sprinkles)",
+                  "description":null,
+                  "price":30
+               }
+            ]
+         }
+      ]
+   }
